@@ -8,8 +8,9 @@ namespace HomeBanking.Models
         public string Number { get; set; } 
         public DateTime CreationDate { get; set; }
         public double Balance { get; set; }
-        public long ClientId { get; set; }
 
+        //Convención 4 EFC
+        public long ClientId { get; set; }
         public Client Client { get; set; } //Una cuenta tiene un Cliente.
 
     }
