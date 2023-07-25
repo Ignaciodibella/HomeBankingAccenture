@@ -1,0 +1,226 @@
+C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\bin\Debug\net5.0\appsettings.json
+C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\bin\Debug\net5.0\HomeBanking.exe
+C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\bin\Debug\net5.0\HomeBanking.deps.json
+C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\bin\Debug\net5.0\HomeBanking.runtimeconfig.json
+C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\bin\Debug\net5.0\HomeBanking.runtimeconfig.dev.json
+C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\bin\Debug\net5.0\HomeBanking.dll
+C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\bin\Debug\net5.0\HomeBanking.pdb
+C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\bin\Debug\net5.0\HomeBanking.Views.dll
+C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\bin\Debug\net5.0\HomeBanking.Views.pdb
+C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\bin\Debug\net5.0\Humanizer.dll
+C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\obj\Debug\net5.0\HomeBanking.csproj.AssemblyReference.cache
+C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\obj\Debug\net5.0\HomeBanking.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\obj\Debug\net5.0\HomeBanking.AssemblyInfoInputs.cache
+C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\obj\Debug\net5.0\HomeBanking.AssemblyInfo.cs
+C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\obj\Debug\net5.0\HomeBanking.csproj.CoreCompileInputs.cache
+C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\obj\Debug\net5.0\HomeBanking.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\obj\Debug\net5.0\HomeBanking.RazorAssemblyInfo.cache
+C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\obj\Debug\net5.0\HomeBanking.RazorAssemblyInfo.cs
+C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\obj\Debug\net5.0\scopedcss\bundle\HomeBanking.styles.css
+C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\obj\Debug\net5.0\staticwebassets\HomeBanking.StaticWebAssets.Manifest.cache
+C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\obj\Debug\net5.0\staticwebassets\HomeBanking.StaticWebAssets.Pack.cache
+C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\obj\Debug\net5.0\staticwebassets\msbuild.HomeBanking.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\obj\Debug\net5.0\staticwebassets\msbuild.build.HomeBanking.props
+C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.HomeBanking.props
+C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.HomeBanking.props
+C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\obj\Debug\net5.0\HomeBanking.TagHelpers.input.cache
+C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\obj\Debug\net5.0\HomeBanking.TagHelpers.output.cache
+C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\obj\Debug\net5.0\HomeBanking.RazorCoreGenerate.cache
+C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
+C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
+C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\obj\Debug\net5.0\Razor\Pages\Privacy.cshtml.g.cs
+C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\obj\Debug\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\obj\Debug\net5.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\obj\Debug\net5.0\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\obj\Debug\net5.0\HomeBanking.RazorTargetAssemblyInfo.cache
+C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\obj\Debug\net5.0\HomeBanking.RazorTargetAssemblyInfo.cs
+C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\obj\Debug\net5.0\HomeBanking.Views.pdb
+C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\obj\Debug\net5.0\HomeBanking.csproj.CopyComplete
+C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\obj\Debug\net5.0\HomeBanking.dll
+C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\obj\Debug\net5.0\refint\HomeBanking.dll
+C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\obj\Debug\net5.0\HomeBanking.pdb
+C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\obj\Debug\net5.0\HomeBanking.genruntimeconfig.cache
+C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\obj\Debug\net5.0\ref\HomeBanking.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\appsettings.Development.json
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\appsettings.json
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\HomeBanking.exe
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\HomeBanking.deps.json
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\HomeBanking.runtimeconfig.json
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\HomeBanking.runtimeconfig.dev.json
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\HomeBanking.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\HomeBanking.pdb
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\HomeBanking.Views.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\HomeBanking.Views.pdb
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\Humanizer.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\System.Composition.Convention.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\System.Composition.Hosting.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\System.Composition.Runtime.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\System.Composition.TypedParts.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\System.Runtime.Caching.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\obj\Debug\net5.0\HomeBanking.csproj.AssemblyReference.cache
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\obj\Debug\net5.0\HomeBanking.GeneratedMSBuildEditorConfig.editorconfig
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\obj\Debug\net5.0\HomeBanking.AssemblyInfoInputs.cache
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\obj\Debug\net5.0\HomeBanking.AssemblyInfo.cs
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\obj\Debug\net5.0\HomeBanking.csproj.CoreCompileInputs.cache
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\obj\Debug\net5.0\HomeBanking.MvcApplicationPartsAssemblyInfo.cache
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\obj\Debug\net5.0\HomeBanking.RazorAssemblyInfo.cache
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\obj\Debug\net5.0\HomeBanking.RazorAssemblyInfo.cs
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\obj\Debug\net5.0\scopedcss\bundle\HomeBanking.styles.css
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\obj\Debug\net5.0\staticwebassets\HomeBanking.StaticWebAssets.Manifest.cache
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\obj\Debug\net5.0\staticwebassets\HomeBanking.StaticWebAssets.Pack.cache
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\obj\Debug\net5.0\staticwebassets\msbuild.HomeBanking.Microsoft.AspNetCore.StaticWebAssets.props
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\obj\Debug\net5.0\staticwebassets\msbuild.build.HomeBanking.props
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.HomeBanking.props
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.HomeBanking.props
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\obj\Debug\net5.0\HomeBanking.TagHelpers.input.cache
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\obj\Debug\net5.0\HomeBanking.TagHelpers.output.cache
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\obj\Debug\net5.0\HomeBanking.RazorCoreGenerate.cache
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\obj\Debug\net5.0\Razor\Pages\Privacy.cshtml.g.cs
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\obj\Debug\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\obj\Debug\net5.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\obj\Debug\net5.0\Razor\Pages\_ViewStart.cshtml.g.cs
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\obj\Debug\net5.0\HomeBanking.RazorTargetAssemblyInfo.cache
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\obj\Debug\net5.0\HomeBanking.RazorTargetAssemblyInfo.cs
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\obj\Debug\net5.0\HomeBanking.Views.pdb
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\obj\Debug\net5.0\HomeBanking.csproj.CopyComplete
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\obj\Debug\net5.0\HomeBanking.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\obj\Debug\net5.0\refint\HomeBanking.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\obj\Debug\net5.0\HomeBanking.pdb
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\obj\Debug\net5.0\HomeBanking.genruntimeconfig.cache
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\obj\Debug\net5.0\ref\HomeBanking.dll
