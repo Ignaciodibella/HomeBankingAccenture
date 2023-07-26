@@ -40,22 +40,59 @@ namespace HomeBanking.Models
             //Carga de datos de prueba en nuestra entidad Accounts:
             if (!context.Accounts.Any())
             {
-                var accountVictor = context.Clients.FirstOrDefault(
+                var clientVictor = context.Clients.FirstOrDefault(
                     c => c.Email == "vcoronado@gmail.com");
-                if (accountVictor != null) //Si encontramos al cliente con mail "vcoronado@gmail.com"
+                if (clientVictor != null) //Si encontramos al cliente con mail "vcoronado@gmail.com"
                 {
-                    var accounts = new Account[]
+                    var accountsVictor = new Account[]
                     {
-                        new Account{Number = string.Empty, CreationDate = System.DateTime.Now,
-                        Balance = 0, ClientId = accountVictor.Id} //le asociamos una cuenta con estos datos.
+                        new Account{
+                            Number = string.Empty, 
+                            CreationDate = System.DateTime.Now,
+                            Balance = 0,
+                            ClientId = clientVictor.Id//le asociamos una cuenta con estos datos.
+                        }, 
+                        new Account
+                        {
+                            Number = "VIN001",
+                            CreationDate = System.DateTime.Now,
+                            Balance = -1000,
+                            ClientId = clientVictor.Id
+                        }
                     };
-                    foreach (var account in accounts) 
+                    foreach (var account in accountsVictor) 
                     {
                         context.Accounts.Add(account);
                     }
-                    context.SaveChanges();
+                    //context.SaveChanges();
+                }
+
+                var clientIgnacio = context.Clients.FirstOrDefault(c => c.Email == "ignacio.dibella.n@gmail.com");
+                if (clientIgnacio != null) 
+                {
+                    var accountsIgnacio = new Account[]
+                    {
+                        new Account{
+                            Number = "CC01", 
+                            CreationDate= System.DateTime.Now,
+                            Balance = 50000, 
+                            ClientId = clientIgnacio.Id
+                        },
+                        new Account{
+                            Number = "CC02",
+                            CreationDate=System.DateTime.Now,
+                            Balance=1000000,
+                            ClientId = clientIgnacio.Id
+                        }
+                    };
+                    foreach (var account in accountsIgnacio)
+                    {
+                        context.Accounts.Add(account);
+                    }
+                    //context.SaveChanges();
                 }
             }
+            context.SaveChanges();
         }
     }
 }
