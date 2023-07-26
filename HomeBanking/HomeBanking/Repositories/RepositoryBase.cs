@@ -50,10 +50,10 @@ namespace HomeBanking.Repositories
         {
             this.RepositoryContext.SaveChanges();
         }
-
-        public IQueryable<T> FindByContidion(Expression<Func<T, bool>> expression)
+        /*Cambios
+        public IQueryable<T> FindByCondition(Expression<Func<T, bool>> expression)
         {
             throw new NotImplementedException();
-        }
+        }*/
     }
 }

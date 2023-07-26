@@ -61,7 +61,7 @@ namespace HomeBanking.Controllers
             try 
             {
                 var client = _clientRepository.FindById(id);
-                if (client == null) //Si no lo encuentro
+                if (client == null) //Si no lo encuentro/no existen.
                 {
                     return Forbid();
                 }

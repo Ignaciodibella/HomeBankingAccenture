@@ -9,7 +9,7 @@ namespace HomeBanking.Repositories
     {
         IQueryable<T> FindAll(); //permite obtener un lista de objetos sin filtro.
         IQueryable<T> FindAll(Func<IQueryable<T>, IIncludableQueryable<T, object>> includes = null);
-        IQueryable<T> FindByContidion(Expression<Func<T, bool>> expression);
+        IQueryable<T> FindByCondition(Expression<Func<T, bool>> expression);
         void Create(T entity);
         void Update(T entity);
         void Delete(T entity);

@@ -61,6 +61,12 @@ namespace HomeBanking
             {
                 endpoints.MapRazorPages();
             });
+
+            //Cambios fuera de la documentación para lograra visualizar /api/clients al ejecutar.
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.MapControllers();
+            });
         }
     }
 }
