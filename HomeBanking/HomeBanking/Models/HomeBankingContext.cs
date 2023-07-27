@@ -8,5 +8,6 @@ namespace HomeBanking.Models
 
         //dBSet
         public DbSet<Client> Clients { get; set; }
+        public DbSet<Account> Accounts { get; set; }
     }
 }
