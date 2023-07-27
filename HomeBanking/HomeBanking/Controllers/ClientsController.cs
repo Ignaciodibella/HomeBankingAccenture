@@ -14,7 +14,7 @@ namespace HomeBanking.Controllers
     public class ClientsController : ControllerBase
     {
         private IClientRepository _clientRepository;
-        public ClientsController(IClientRepository clientRepository)
+        public ClientsController(IClientRepository clientRepository) //Constructor
         {
             _clientRepository = clientRepository;
         }
@@ -63,7 +63,8 @@ namespace HomeBanking.Controllers
                 var client = _clientRepository.FindById(id);
                 if (client == null) //Si no lo encuentro/no existen.
                 {
-                    return Forbid();
+                    //return Forbid();
+                    return NotFound();
                 }
 
                 var clientDTO = new ClientDTO

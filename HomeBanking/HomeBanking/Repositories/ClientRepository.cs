@@ -5,8 +5,9 @@ using System.Linq;
 
 namespace HomeBanking.Repositories
 {
-    public class ClientRepository: RepositoryBase<Client>, IClientRepository
-    {
+    public class ClientRepository: RepositoryBase<Client>, IClientRepository //ClientRepository Hereda de RepositoryBase para poder implementar los métodos allí definidos.
+    {                                                                        //Por esto, en RepositoryBase definimos public abstract.
+                                                                             //Luego, implementa el IClientRepository
         public ClientRepository(HomeBankingContext repositoryContext): base(repositoryContext)
         { }
         public Client FindById(long id)

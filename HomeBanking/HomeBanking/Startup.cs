@@ -37,6 +37,11 @@ namespace HomeBanking
             
             //Agregado del Scoped.Instancia del servicio ClientRepository
             services.AddScoped<IClientRepository, ClientRepository>();
+
+            //Agregado del Scoped.Instancia del servicio AccountRepository
+            services.AddScoped<IAccountRepository, AccountRepository>();
+
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -59,13 +64,8 @@ namespace HomeBanking
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapRazorPages();
-            });
-
-            //Cambios fuera de la documentación para lograra visualizar /api/clients al ejecutar.
-            app.UseEndpoints(endpoints =>
-            {
-                endpoints.MapControllers();
+                endpoints.MapRazorPages(); //Razor: tecnología para crear paginas web con C#, HTML y CSS.       
+                endpoints.MapControllers(); //Agrrega a los endpoints las clases que extienden de controllers.
             });
         }
     }
