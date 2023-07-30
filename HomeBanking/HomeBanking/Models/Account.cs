@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace HomeBanking.Models
 {
@@ -12,6 +13,7 @@ namespace HomeBanking.Models
         //Convención 4 EFC
         public long ClientId { get; set; }
         public Client Client { get; set; } //Una cuenta tiene un Cliente.
+        public ICollection<Transaction> Transactions { get; set; } //Un cuenta puede tener mas de una transacción.
 
     }
 }

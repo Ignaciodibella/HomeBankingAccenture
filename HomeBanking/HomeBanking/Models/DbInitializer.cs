@@ -6,7 +6,8 @@ namespace HomeBanking.Models
     {
         public static void Initialize(HomeBankingContext context) 
         {
-            //Carga de datos de prueba en nuestra entidad Client
+            //Carga de datos de prueba en nuestra entidad Clients
+            //#################################################################################################
             //Consultar si tenemos datos (d prueba).
             if (!context.Clients.Any()) 
             { 
@@ -38,6 +39,7 @@ namespace HomeBanking.Models
             //En caso de existir datos no hacemos nada.
 
             //Carga de datos de prueba en nuestra entidad Accounts:
+            //#################################################################################################
             if (!context.Accounts.Any())
             {
                 var clientVictor = context.Clients.FirstOrDefault(
@@ -92,6 +94,79 @@ namespace HomeBanking.Models
                     //context.SaveChanges();
                 }
             }
+
+            //Carga de datos de prueba en nuestra entidad Transactions:
+            //#################################################################################################
+            if (!context.Transactions.Any())
+            {
+                var account1 = context.Accounts.FirstOrDefault(ac => ac.Number == "VIN001");
+
+                if (account1 != null) 
+                {
+                    var transactions1 = new Transaction[]
+                    {
+                        new Transaction{
+                            AccountId = account1.Id,
+                            Amount = -2000,
+                            Date = System.DateTime.Now.AddHours(-6),
+                            Description = "Compra Nakaoutdoors",
+                            Type = TransactionType.DEBIT.ToString()
+                        },
+                        new Transaction
+                        {
+                            AccountId = account1.Id,
+                            Amount = 10000,
+                            Date =  System.DateTime.Now.AddHours(-7),
+                            Description = "Transferencia Recibida",
+                            Type = TransactionType.CREDIT.ToString()
+
+                        },
+                        new Transaction
+                        {
+                            AccountId = account1.Id,
+                            Amount = -500,
+                            Date = System.DateTime.Now.AddHours(-8),
+                            Description = "Compra en tiendaMia",
+                            Type = TransactionType.DEBIT.ToString()
+                        }
+                    };
+
+                    foreach (Transaction transaction in transactions1)
+                    { 
+                        context.Transactions.Add(transaction);
+                    }
+                }
+
+                var account2 = context.Accounts.FirstOrDefault(ac => ac.Number == "CC01");
+                if (account2 != null)
+                {
+                    var transactions2 = new Transaction[]
+                    {
+                        new Transaction{
+                            AccountId = account2.Id,
+                            Amount = 5000,
+                            Date = System.DateTime.Now.AddHours(-4),
+                            Description = "Transferencia Recibida",
+                            Type = TransactionType.CREDIT.ToString()
+                        },
+                        new Transaction
+                        {
+                            AccountId = account2.Id,
+                            Amount = 100000,
+                            Date =  System.DateTime.Now.AddHours(-5),
+                            Description = "Plazo Fijo Liquidado",
+                            Type = TransactionType.CREDIT.ToString()
+
+                        },
+                    };
+
+                    foreach (Transaction transaction in transactions2) 
+                    {
+                        context.Transactions.Add (transaction);
+                    }
+                }
+            }
+
             context.SaveChanges();
         }
     }
