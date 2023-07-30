@@ -39,6 +39,7 @@ namespace HomeBanking.Controllers
                         Transactions = account.Transactions.Select(t => new TransactionDTO
                         {
                             Id = t.Id,
+                            Type = t.Type,
                             Amount = t.Amount,
                             Description = t.Description,
                             Date = t.Date,
@@ -77,6 +78,7 @@ namespace HomeBanking.Controllers
                     Transactions = account.Transactions.Select(t => new TransactionDTO
                     {
                         Id= t.Id,
+                        Type = t.Type,
                         Amount = t.Amount,
                         Description = t.Description,
                         Date = t.Date,
