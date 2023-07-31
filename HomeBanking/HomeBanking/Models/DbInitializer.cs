@@ -13,17 +13,17 @@ namespace HomeBanking.Models
             { 
                 //Creamos datos de prueba
                 var clients = new Client[]
-                { 
-                    new Client{
-                    FirstName = "Ignacio",
-                    LastName = "Di Bella",
-                    Email = "ignacio.dibella.n@gmail.com",
-                    Password = "123456",
-                    },
+                {
                     new Client{
                     FirstName = "Victor",
                     LastName = "Coronado",
                     Email = "vcoronado@gmail.com",
+                    Password = "123456",
+                    },
+                    new Client{
+                    FirstName = "Ignacio",
+                    LastName = "Di Bella",
+                    Email = "ignacio.dibella.n@gmail.com",
                     Password = "123456",
                     },
                 };
@@ -48,12 +48,13 @@ namespace HomeBanking.Models
                 {
                     var accountsVictor = new Account[]
                     {
+                        /*
                         new Account{
                             Number = string.Empty, 
                             CreationDate = System.DateTime.Now,
                             Balance = 0,
                             ClientId = clientVictor.Id//le asociamos una cuenta con estos datos.
-                        }, 
+                        }, */
                         new Account
                         {
                             Number = "VIN001",
