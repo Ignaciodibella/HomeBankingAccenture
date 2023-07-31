@@ -66,7 +66,7 @@ namespace HomeBanking.Models
                     {
                         context.Accounts.Add(account);
                     }
-                    //context.SaveChanges();
+                    context.SaveChanges();
                 }
 
                 var clientIgnacio = context.Clients.FirstOrDefault(c => c.Email == "ignacio.dibella.n@gmail.com");
@@ -91,7 +91,7 @@ namespace HomeBanking.Models
                     {
                         context.Accounts.Add(account);
                     }
-                    //context.SaveChanges();
+                    context.SaveChanges();
                 }
             }
 
@@ -135,6 +135,7 @@ namespace HomeBanking.Models
                     { 
                         context.Transactions.Add(transaction);
                     }
+                    context.SaveChanges();
                 }
 
                 var account2 = context.Accounts.FirstOrDefault(ac => ac.Number == "CC01");
@@ -164,10 +165,85 @@ namespace HomeBanking.Models
                     {
                         context.Transactions.Add (transaction);
                     }
+                    context.SaveChanges();
                 }
             }
 
-            context.SaveChanges();
+            //Carga de datos de prueba en nuestra entidad Loans:
+            //#################################################################################################
+            if (!context.Loans.Any())
+            {
+                var loans = new Loan[]
+                    {
+                        new Loan{
+                            Name = "Hipotecario",
+                            MaxAmount = 500000,
+                            Payments = "12,24,36,48,60"
+                        },
+                        new Loan{
+                            Name = "Personal",
+                            MaxAmount = 100000,
+                            Payments = "6,12,24"
+                        },
+                        new Loan{
+                            Name = "Automotriz",
+                            MaxAmount = 300000,
+                            Payments = "6,12,24,36"
+                        }
+                    };
+
+                foreach (Loan loan in loans) 
+                {
+                    context.Loans.Add (loan);
+                }
+                context.SaveChanges();
+
+                //Carga de datos de prueba en nuestra entidad Client Loans:
+                //#################################################################################################
+
+                var client1 = context.Clients.FirstOrDefault(c => c.Email == "vcoronado@gmail.com");
+                if (client1 != null)
+                {
+                    var loan1 = context.Loans.FirstOrDefault(l => l.Name == "Hipotecario");
+                    if (loan1 != null)
+                    {
+                        var clientLoan1 = new ClientLoan
+                        {
+                            Amount = 400000,
+                            ClientId = client1.Id,
+                            LoanId = loan1.Id,
+                            Payments = "60"
+                        };
+                        context.ClientLoans.Add(clientLoan1);
+                    }
+                    var loan2 = context.Loans.FirstOrDefault(l => l.Name == "Personal");
+                    if (loan2 != null)
+                    {
+                        var clienLoan2 = new ClientLoan
+                        {
+                            Amount = 500000,
+                            ClientId = client1.Id,
+                            LoanId = loan2.Id,
+                            Payments = "12"
+                        };
+                        context.ClientLoans.Add(clienLoan2);
+                    }
+                    var loan3 = context.Loans.FirstOrDefault(l => l.Name == "Automotriz");
+                    if (loan3 != null)
+                    {
+                        var clientLoan3 = new ClientLoan
+                        {
+                            Amount = 100000,
+                            ClientId = client1.Id,
+                            LoanId = loan3.Id,
+                            Payments = "24"
+                        };
+                        context.ClientLoans.Add(clientLoan3);
+                    }
+                    context.SaveChanges();
+
+                }
+            } 
         }
     }
 }

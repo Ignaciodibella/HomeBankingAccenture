@@ -14,6 +14,7 @@ namespace HomeBanking.Models
 
         //Convención 4 EFC
         public ICollection<Account> Accounts { get; set; } //Un cliente puede tener mas de una cuenta.
+        public ICollection<ClientLoan> ClientLoans { get; set; } //Un cliente puede tener mas de un préstamo.
     }
 }
 
