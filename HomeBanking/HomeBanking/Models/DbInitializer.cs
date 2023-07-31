@@ -1,4 +1,6 @@
-﻿using System.Linq;
+﻿using System;
+using System.Linq;
+using HomeBanking.Models.Enums;
 
 namespace HomeBanking.Models
 {
@@ -244,7 +246,48 @@ namespace HomeBanking.Models
                     context.SaveChanges();
 
                 }
-            } 
+            }
+
+            //Carga de datos de prueba en nuestra entidad Cards:
+            //#################################################################################################
+
+            if (!context.Cards.Any())
+            {
+                var client1 = context.Clients.FirstOrDefault(c => c.Email == "vcoronado@gmail.com");
+                if(client1 != null)
+                {
+                    var cards = new Card[]
+                    {
+                       new Card{
+                           ClientId = client1.Id,
+                           CardHolder = client1.FirstName + " " + client1.LastName,
+                           Type = CardType.DEBIT.ToString(),
+                           Color = CardColor.GOLD.ToString(),
+                           Number =  "3325-6745-7876-4445",
+                           Cvv = 990,
+                           FromDate = DateTime.Now,
+                           ThruDate = DateTime.Now.AddYears(4),
+                       },
+                        new Card{ 
+                            ClientId = client1.Id,
+                            CardHolder = client1.FirstName + " " + client1.LastName,
+                            Type = CardType.CREDIT.ToString(),
+                            Color = CardColor.TITANIUM.ToString(),
+                            Number =  "2234-6745-552-7888",
+                            Cvv = 750,
+                            FromDate = DateTime.Now,
+                            ThruDate = DateTime.Now.AddYears(5),
+                        }
+                    };
+
+                    foreach (Card card in cards)
+                    { 
+                        context.Cards.Add(card);
+                    }
+                    context.SaveChanges();
+                }
+            }
+
         }
     }
 }

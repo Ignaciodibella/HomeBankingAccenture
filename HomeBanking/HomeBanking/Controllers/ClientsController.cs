@@ -44,13 +44,24 @@ namespace HomeBanking.Controllers
                             Number = ac.Number
                         }).ToList(),
 
-                        Loans = client.ClientLoans.Select(cl => new ClientLoanDTO
+                        Credits = client.ClientLoans.Select(cl => new ClientLoanDTO
                         { 
                             Id = cl.Id,
                             LoanId = cl.LoanId,
                             Name = cl.Loan.Name,
                             Amount = cl.Amount,
                             Payments = int.Parse(cl.Payments)
+                        }).ToList(),
+
+                        Cards = client.Cards.Select(cc => new CardDTO
+                        { 
+                            Id = cc.Id,
+                            CardHolder = cc.CardHolder,
+                            Color = cc.Color,
+                            Cvv = cc.Cvv,
+                            FromDate = cc.FromDate,
+                            ThruDate = cc.ThruDate,
+                            Type = cc.Type,
                         }).ToList()
                     };
 
@@ -92,13 +103,24 @@ namespace HomeBanking.Controllers
                         Number = ac.Number
                     }).ToList(),
 
-                    Loans = client.ClientLoans.Select(cl => new ClientLoanDTO
+                    Credits = client.ClientLoans.Select(cl => new ClientLoanDTO
                     {
                         Id = cl.Id,
                         LoanId = cl.LoanId,
                         Name = cl.Loan.Name,
                         Amount = cl.Amount,
                         Payments = int.Parse(cl.Payments)
+                    }).ToList(),
+
+                    Cards = client.Cards.Select(cc => new CardDTO
+                    {
+                        Id = cc.Id,
+                        CardHolder = cc.CardHolder,
+                        Color = cc.Color,
+                        Cvv = cc.Cvv,
+                        FromDate = cc.FromDate,
+                        ThruDate = cc.ThruDate,
+                        Type = cc.Type,
                     }).ToList()
                 };
 
