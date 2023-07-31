@@ -4,14 +4,16 @@ using HomeBanking.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace HomeBanking.Migrations
 {
     [DbContext(typeof(HomeBankingContext))]
-    partial class HomeBankingContextModelSnapshot : ModelSnapshot
+    [Migration("20230731143006_ImplementsLoans")]
+    partial class ImplementsLoans
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -167,7 +169,7 @@ namespace HomeBanking.Migrations
                         .IsRequired();
 
                     b.HasOne("HomeBanking.Models.Loan", "Loan")
-                        .WithMany("ClientLoans")
+                        .WithMany("Loans")
                         .HasForeignKey("LoanId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -202,7 +204,7 @@ namespace HomeBanking.Migrations
 
             modelBuilder.Entity("HomeBanking.Models.Loan", b =>
                 {
-                    b.Navigation("ClientLoans");
+                    b.Navigation("Loans");
                 });
 #pragma warning restore 612, 618
         }

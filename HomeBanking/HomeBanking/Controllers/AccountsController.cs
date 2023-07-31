@@ -33,7 +33,7 @@ namespace HomeBanking.Controllers
                     {
                         Id = account.Id,
                         Number = account.Number,
-                        CreationDate = account.CreationDate, // si?
+                        CreationDate = account.CreationDate,
                         Balance = account.Balance,
 
                         Transactions = account.Transactions.Select(t => new TransactionDTO
