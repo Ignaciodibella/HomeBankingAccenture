@@ -156,6 +156,7 @@ namespace HomeBanking.Controllers
                     Email = client.Email,
                     FirstName = client.FirstName,
                     LastName = client.LastName,
+
                     Accounts = client.Accounts.Select(ac => new AccountDTO
                     {
                         Id = ac.Id,
@@ -163,6 +164,7 @@ namespace HomeBanking.Controllers
                         CreationDate = ac.CreationDate,
                         Number = ac.Number
                     }).ToList(),
+
                     Credits = client.ClientLoans.Select(cl => new ClientLoanDTO
                     {
                         Id = cl.Id,
@@ -171,6 +173,7 @@ namespace HomeBanking.Controllers
                         Amount = cl.Amount,
                         Payments = int.Parse(cl.Payments)
                     }).ToList(),
+
                     Cards = client.Cards.Select(c => new CardDTO
                     {
                         Id = c.Id,
@@ -205,6 +208,7 @@ namespace HomeBanking.Controllers
                 }
 
                 //Verificamos que el cliente no exista:
+                Client user = _clientRepository.FindByEmail(client.Email);
                 if (User != null)
                 {
                     return StatusCode(403, "Email ya registado");
