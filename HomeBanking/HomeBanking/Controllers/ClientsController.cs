@@ -209,7 +209,7 @@ namespace HomeBanking.Controllers
 
                 //Verificamos que el cliente no exista:
                 Client user = _clientRepository.FindByEmail(client.Email);
-                if (User != null)
+                if (user != null)
                 {
                     return StatusCode(403, "Email ya registado");
                 }
