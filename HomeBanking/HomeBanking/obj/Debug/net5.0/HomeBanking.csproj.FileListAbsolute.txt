@@ -74,6 +74,14 @@ C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\ob
 C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\obj\Debug\net5.0\HomeBanking.pdb
 C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\obj\Debug\net5.0\HomeBanking.genruntimeconfig.cache
 C:\Users\ignac\OneDrive\Documentos\Bootcamp Accenture\HomeBanking\HomeBanking\obj\Debug\net5.0\ref\HomeBanking.dll
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\obj\Debug\net5.0\HomeBanking.csproj.AssemblyReference.cache
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\obj\Debug\net5.0\HomeBanking.GeneratedMSBuildEditorConfig.editorconfig
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\obj\Debug\net5.0\HomeBanking.AssemblyInfoInputs.cache
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\obj\Debug\net5.0\HomeBanking.AssemblyInfo.cs
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\obj\Debug\net5.0\HomeBanking.csproj.CoreCompileInputs.cache
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\obj\Debug\net5.0\HomeBanking.MvcApplicationPartsAssemblyInfo.cache
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\obj\Debug\net5.0\HomeBanking.RazorAssemblyInfo.cache
+D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\obj\Debug\net5.0\HomeBanking.RazorAssemblyInfo.cs
 D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\appsettings.Development.json
 D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\appsettings.json
 D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\HomeBanking.exe
@@ -190,14 +198,6 @@ D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5
 D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\obj\Debug\net5.0\HomeBanking.csproj.AssemblyReference.cache
-D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\obj\Debug\net5.0\HomeBanking.GeneratedMSBuildEditorConfig.editorconfig
-D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\obj\Debug\net5.0\HomeBanking.AssemblyInfoInputs.cache
-D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\obj\Debug\net5.0\HomeBanking.AssemblyInfo.cs
-D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\obj\Debug\net5.0\HomeBanking.csproj.CoreCompileInputs.cache
-D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\obj\Debug\net5.0\HomeBanking.MvcApplicationPartsAssemblyInfo.cache
-D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\obj\Debug\net5.0\HomeBanking.RazorAssemblyInfo.cache
-D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\obj\Debug\net5.0\HomeBanking.RazorAssemblyInfo.cs
 D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\obj\Debug\net5.0\scopedcss\bundle\HomeBanking.styles.css
 D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\obj\Debug\net5.0\staticwebassets\HomeBanking.StaticWebAssets.Manifest.cache
 D:\BootcampAccenture\HomeBankingAccenture\HomeBanking\HomeBanking\obj\Debug\net5.0\staticwebassets\HomeBanking.StaticWebAssets.Pack.cache

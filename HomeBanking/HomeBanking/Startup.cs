@@ -43,6 +43,13 @@ namespace HomeBanking
             //Agregado del Scoped.Instancia del servicio AccountRepository
             services.AddScoped<IAccountRepository, AccountRepository>();
 
+            //Agregado del Scoped.Instancia del servicio CardRepository
+            services.AddScoped<ICardRepository, CardRepository>();
+
+            //Agregado del Scoped.Instancia del servicio TransactionRepository
+            services.AddScoped<ITransactionRepository, TransactionRepository>();
+
+
             //Autenticación
             services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
                 .AddCookie(options => { 
@@ -83,11 +90,11 @@ namespace HomeBanking
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages(); //Razor: tecnología para crear paginas web con C#, HTML y CSS.       
-                //endpoints.MapControllers(); //Agrrega a los endpoints las clases que extienden de controllers.
-                
+                endpoints.MapControllers(); //Agrrega a los endpoints las clases que extienden de controllers.
+                /*
                 endpoints.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=games}/{ action = Get}");
+                pattern: "{controller=games}/{ action = Get}");*/
                 
             });
         }

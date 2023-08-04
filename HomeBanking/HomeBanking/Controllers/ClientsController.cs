@@ -15,9 +15,11 @@ namespace HomeBanking.Controllers
     public class ClientsController : ControllerBase
     {
         private IClientRepository _clientRepository;
-        public ClientsController(IClientRepository clientRepository) //Constructor
+        private IAccountRepository _accountRepository;
+        public ClientsController(IClientRepository clientRepository, IAccountRepository accountRepository) //Constructor
         {
             _clientRepository = clientRepository;
+            _accountRepository = accountRepository;
         }
 
         [HttpGet]
@@ -134,7 +136,7 @@ namespace HomeBanking.Controllers
         }
 
         [HttpGet("current")]
-        public IActionResult GetCurrent()
+        public IActionResult GetCurrent() 
         {
             try 
             {
@@ -219,17 +221,43 @@ namespace HomeBanking.Controllers
                     Email = client.Email,
                     Password = client.Password,
                     FirstName = client.FirstName,
-                    LastName = client.LastName,
+                    LastName = client.LastName
                 };
-                
                 _clientRepository.Save(newClient);
-                return Created("", newClient);
+
+                Client currentNewClient = _clientRepository.FindById(newClient.Id);
+
+                //Creamos una cuenta al registrar un nuevo cliente.
+                Account newAccount = new Account
+                {
+                    Number = "VIN-" + GenerateRandomNumber(8),
+                    CreationDate = System.DateTime.Now,
+                    Balance = 0,
+                    ClientId = currentNewClient.Id
+                };
+                _accountRepository.Save(newAccount);
+
+                currentNewClient = _clientRepository.FindByEmail(client.Email);
+                return Created("", currentNewClient);
             }
             catch (Exception ex) 
             {
                 return StatusCode(500, ex.Message);
             }
         }
-        
+
+        private string GenerateRandomNumber(int digits)
+        {
+            Random random = new Random();
+            string number = "";
+
+            for (int i = 0; i < digits; i++)
+            {
+                number += random.Next(0, 10).ToString();
+            }
+
+            return number;
+        }
+
     }
 }
