@@ -138,7 +138,7 @@ namespace HomeBanking.Controllers
                 selectedAccount.Balance = selectedAccount.Balance + loanApplicationDTO.Amount;
                 _accountRepository.Save(selectedAccount);
 
-                return Created("Operación realizada con éxito", selectedAccount); //201
+                return Created("Operacion realizada con exito", selectedAccount); //201
 
             }
             catch (Exception ex)
