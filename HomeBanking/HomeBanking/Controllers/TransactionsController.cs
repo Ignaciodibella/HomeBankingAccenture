@@ -98,7 +98,7 @@ namespace HomeBanking.Controllers
                 toAccount.Balance = toAccount.Balance + transferDTO.Amount;
                 _accountRepository.Save(toAccount);
 
-                return Created("Transaccion efectuada con éxito", fromAccount);
+                return Created("Transaccion efectuada con exito", fromAccount);
 
             }
             catch(Exception ex)
