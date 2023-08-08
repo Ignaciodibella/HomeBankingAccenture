@@ -6,7 +6,7 @@ namespace HomeBanking.Models
     public class Account
     {
         public long Id { get; set; }
-        public string Number { get; set; } 
+        public string Number { get; set; } = string.Empty;
         public DateTime CreationDate { get; set; }
         public double Balance { get; set; }
 

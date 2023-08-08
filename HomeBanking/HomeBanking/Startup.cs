@@ -1,7 +1,9 @@
 using HomeBanking.Models;
 using HomeBanking.Repositories;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -41,6 +43,27 @@ namespace HomeBanking
             //Agregado del Scoped.Instancia del servicio AccountRepository
             services.AddScoped<IAccountRepository, AccountRepository>();
 
+            //Agregado del Scoped.Instancia del servicio CardRepository
+            services.AddScoped<ICardRepository, CardRepository>();
+
+            //Agregado del Scoped.Instancia del servicio TransactionRepository
+            services.AddScoped<ITransactionRepository, TransactionRepository>();
+
+
+            //Autenticación
+            services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+                .AddCookie(options => { 
+                    options.ExpireTimeSpan = TimeSpan.FromMinutes(10);
+                    options.LoginPath = new PathString("/index.html");
+                });
+
+            //Autorización
+            services.AddAuthorization
+                (options =>
+                {
+                    options.AddPolicy("ClientOnly", policy => policy.RequireClaim("Client"));
+                });
+
 
         }
 
@@ -60,12 +83,19 @@ namespace HomeBanking
 
             app.UseRouting();
 
+            app.UseAuthentication();
+
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages(); //Razor: tecnología para crear paginas web con C#, HTML y CSS.       
                 endpoints.MapControllers(); //Agrrega a los endpoints las clases que extienden de controllers.
+                /*
+                endpoints.MapControllerRoute(
+                name: "default",
+                pattern: "{controller=games}/{ action = Get}");*/
+                
             });
         }
     }
