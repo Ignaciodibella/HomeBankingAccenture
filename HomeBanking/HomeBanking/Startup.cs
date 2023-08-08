@@ -49,6 +49,11 @@ namespace HomeBanking
             //Agregado del Scoped.Instancia del servicio TransactionRepository
             services.AddScoped<ITransactionRepository, TransactionRepository>();
 
+            //Agregado del SCoped. Instnacia del servicio LoanRepository
+            services.AddScoped<ILoanRepository, LoanRepository>();
+
+            //Agregado del SCoped. Instnacia del servicio ClientLoanRepository
+            services.AddScoped<IClientLoanRepository, ClientLoanRepository>();
 
             //Autenticación
             services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
