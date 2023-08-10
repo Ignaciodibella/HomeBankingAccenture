@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 using System;
 using HomeBanking.Models;
 using HomeBanking.dtos;
+using HomeBanking.Helpers;
 
 namespace HomeBanking.Controllers
 {
@@ -18,9 +19,11 @@ namespace HomeBanking.Controllers
     public class AuthController : ControllerBase
     {
         private IClientRepository _clientRepository;
-        public AuthController(IClientRepository clientRepository)
+        private readonly IPasswordHasher _passwordHasher;
+        public AuthController(IClientRepository clientRepository, IPasswordHasher passwordHasher)
         {
             _clientRepository = clientRepository;
+            _passwordHasher = passwordHasher;
         }
 
         [HttpPost("login")]
@@ -28,8 +31,13 @@ namespace HomeBanking.Controllers
         {
             try
             { 
+                
+
                 Client user = _clientRepository.FindByEmail(client.Email);
-                if (user == null || !String.Equals(user.Password, client.Password))
+                bool result = _passwordHasher.Verify(user.Password, client.Password); //revisar (puede ser al revés)
+
+                //if (user == null || !String.Equals(user.Password, client.Password)) - previo a usar hasheo.
+                if (user == null || !result)
                 {
                     return Unauthorized();
                 }

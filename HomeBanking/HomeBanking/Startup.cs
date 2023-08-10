@@ -1,4 +1,5 @@
-using HomeBanking.Models;
+using HomeBanking.Data;
+using HomeBanking.Helpers;
 using HomeBanking.Repositories;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Builder;
@@ -49,11 +50,14 @@ namespace HomeBanking
             //Agregado del Scoped.Instancia del servicio TransactionRepository
             services.AddScoped<ITransactionRepository, TransactionRepository>();
 
-            //Agregado del SCoped. Instnacia del servicio LoanRepository
+            //Agregado del Scoped. Instnacia del servicio LoanRepository
             services.AddScoped<ILoanRepository, LoanRepository>();
 
-            //Agregado del SCoped. Instnacia del servicio ClientLoanRepository
+            //Agregado del Scoped. Instnacia del servicio ClientLoanRepository
             services.AddScoped<IClientLoanRepository, ClientLoanRepository>();
+
+            //Agregado del Scoped. Instancia del servicio de Hasheo
+            services.AddScoped<IPasswordHasher, PasswordHasher>();
 
             //Autenticación
             services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)

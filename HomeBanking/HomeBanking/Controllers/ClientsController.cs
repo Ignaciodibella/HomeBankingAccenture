@@ -7,6 +7,7 @@ using HomeBanking.Models;
 using System.Linq;
 using System;
 using Microsoft.Extensions.Logging.Abstractions;
+using HomeBanking.Helpers;
 
 namespace HomeBanking.Controllers
 {
@@ -16,10 +17,12 @@ namespace HomeBanking.Controllers
     {
         private IClientRepository _clientRepository;
         private IAccountRepository _accountRepository;
-        public ClientsController(IClientRepository clientRepository, IAccountRepository accountRepository) //Constructor
+        private readonly IPasswordHasher _passwordHasher;
+        public ClientsController(IClientRepository clientRepository, IAccountRepository accountRepository, IPasswordHasher passwordHasher) //Constructor
         {
             _clientRepository = clientRepository;
             _accountRepository = accountRepository;
+            _passwordHasher = passwordHasher;
         }
 
         [HttpGet]
@@ -209,6 +212,8 @@ namespace HomeBanking.Controllers
                     return StatusCode(403, "Datos Inválidos");
                 }
 
+                var passwordHashed = _passwordHasher.Hash(client.Password);
+
                 //Verificamos que el cliente no exista:
                 Client user = _clientRepository.FindByEmail(client.Email);
                 if (user != null)
@@ -219,7 +224,7 @@ namespace HomeBanking.Controllers
                 Client newClient = new Client
                 {
                     Email = client.Email,
-                    Password = client.Password,
+                    Password = passwordHashed, //Guardamos la clave hasheada, no en texto plano.
                     FirstName = client.FirstName,
                     LastName = client.LastName
                 };
@@ -237,7 +242,7 @@ namespace HomeBanking.Controllers
                 };
                 _accountRepository.Save(newAccount);
 
-                currentNewClient = _clientRepository.FindByEmail(client.Email);
+                currentNewClient = _clientRepository.FindByEmail(client.Email); //al vicio
                 return Created("", currentNewClient);
             }
             catch (Exception ex) 

@@ -1,4 +1,4 @@
-using HomeBanking.Models;
+using HomeBanking.Data;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
