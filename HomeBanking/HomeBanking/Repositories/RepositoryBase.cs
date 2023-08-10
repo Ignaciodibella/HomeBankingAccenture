@@ -2,9 +2,8 @@
 using System.Linq.Expressions;
 using System.Linq;
 using System;
-using HomeBanking.Models;
 using Microsoft.EntityFrameworkCore;
-
+using HomeBanking.Data;
 
 namespace HomeBanking.Repositories
 {

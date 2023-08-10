@@ -1,4 +1,5 @@
-﻿using HomeBanking.Models;
+﻿using HomeBanking.Data;
+using HomeBanking.Models;
 using HomeBanking.Repositories;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
