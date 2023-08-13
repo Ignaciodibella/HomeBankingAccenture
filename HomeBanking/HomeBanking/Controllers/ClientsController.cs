@@ -8,6 +8,7 @@ using System.Linq;
 using System;
 using Microsoft.Extensions.Logging.Abstractions;
 using HomeBanking.Helpers;
+using System.Text.RegularExpressions;
 
 namespace HomeBanking.Controllers
 {
@@ -201,21 +202,47 @@ namespace HomeBanking.Controllers
         }
 
         [HttpPost]
-        public IActionResult Post([FromBody] Client client) 
+        public IActionResult Post([FromBody] ClientRegistrationDTO clientRegistrationDTO) 
         {
             try
             { 
                 //Validación de campos:
-                if (String.IsNullOrEmpty(client.Email) || String.IsNullOrEmpty(client.Password) 
-                    || String.IsNullOrEmpty(client.FirstName) || String.IsNullOrEmpty(client.LastName))
+                if (String.IsNullOrEmpty(clientRegistrationDTO.Email) || String.IsNullOrEmpty(clientRegistrationDTO.Password) 
+                    || String.IsNullOrEmpty(clientRegistrationDTO.FirstName) || String.IsNullOrEmpty(clientRegistrationDTO.LastName)) //Teniendo la validación de almenos 3 caracteres se pueden sacar las validaciones de FirstName y LastName
                 {
                     return StatusCode(403, "Datos Inválidos");
                 }
 
-                var passwordHashed = _passwordHasher.Hash(client.Password);
+                //Validaciones Extra:
+                if (clientRegistrationDTO.FirstName.Length < 3 || clientRegistrationDTO.LastName.Length < 3)
+                {
+                    return StatusCode(403, "El nombre y apellido deben poseer al menos 3 caracteres cada uno.");
+                }
+
+                //Caracteres especiales o numéricos en nombre y/o apellido:
+                if (HasSpecialChars(clientRegistrationDTO.FirstName) || HasSpecialChars(clientRegistrationDTO.LastName))
+                {
+                    return StatusCode(403, "El nombre y apellido no puede contener caracteres especiales ni numéricos.");
+                }
+
+                //Cumplimiento de formato de password
+                Regex passwordValidation = new Regex("^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9]).{8,}$");  //Para validar que incluya caracteres especiales se debe agregar (?=.*?[#?!@$%^&*-])
+                if (! passwordValidation.IsMatch(clientRegistrationDTO.Password))
+                {
+                    return StatusCode(403, "La contraseña debe tener al menos 8 caracteres, una mayúscula, una minúscula y un número.");
+                }
+
+                //Cumplimiento de formato de email:
+                Regex emailValidation = new Regex("^\\S+@\\S+\\.\\S+$");
+                if (!emailValidation.IsMatch(clientRegistrationDTO.Email))
+                {
+                    return StatusCode(403, "Email Inválido.");
+                }
+
+                var passwordHashed = _passwordHasher.Hash(clientRegistrationDTO.Password);
 
                 //Verificamos que el cliente no exista:
-                Client user = _clientRepository.FindByEmail(client.Email);
+                Client user = _clientRepository.FindByEmail(clientRegistrationDTO.Email);
                 if (user != null)
                 {
                     return StatusCode(403, "Email ya registado");
@@ -223,10 +250,10 @@ namespace HomeBanking.Controllers
 
                 Client newClient = new Client
                 {
-                    Email = client.Email,
+                    Email = clientRegistrationDTO.Email,
                     Password = passwordHashed, //Guardamos la clave hasheada, no en texto plano.
-                    FirstName = client.FirstName,
-                    LastName = client.LastName
+                    FirstName = clientRegistrationDTO.FirstName,
+                    LastName = clientRegistrationDTO.LastName
                 };
                 _clientRepository.Save(newClient);
 
@@ -242,7 +269,7 @@ namespace HomeBanking.Controllers
                 };
                 _accountRepository.Save(newAccount);
 
-                currentNewClient = _clientRepository.FindByEmail(client.Email); //al vicio
+                currentNewClient = _clientRepository.FindByEmail(clientRegistrationDTO.Email); //al vicio
                 return Created("", currentNewClient);
             }
             catch (Exception ex) 
@@ -262,6 +289,10 @@ namespace HomeBanking.Controllers
             }
 
             return number;
+        }
+        private bool HasSpecialChars(string yourString)
+        {
+            return yourString.Any(ch => !char.IsLetterOrDigit(ch));
         }
 
     }
