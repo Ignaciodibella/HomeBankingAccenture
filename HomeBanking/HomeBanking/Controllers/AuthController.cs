@@ -34,7 +34,7 @@ namespace HomeBanking.Controllers
                 
 
                 Client user = _clientRepository.FindByEmail(client.Email);
-                bool result = _passwordHasher.Verify(user.Password, client.Password); //revisar (puede ser al revés)
+                bool result = _passwordHasher.Verify(user.Password, client.Password);
 
                 //if (user == null || !String.Equals(user.Password, client.Password)) - previo a usar hasheo.
                 if (user == null || !result)
