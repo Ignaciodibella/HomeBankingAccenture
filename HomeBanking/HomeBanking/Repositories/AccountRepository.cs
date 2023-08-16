@@ -21,11 +21,11 @@ namespace HomeBanking.Repositories
         }
         public void Save(Account account)
         {
-            if (account.Id == 0)
+            if (account.Id == 0) //El objeto tendrá un Id 0 si aún no fue guardado en la BD, por eso se lo crea.
             {
                 Create(account);
             }
-            else
+            else // si Id != 0, entonces ya existe en la BD y se procede a actualizarlo.
             { 
                 Update(account);
             }
