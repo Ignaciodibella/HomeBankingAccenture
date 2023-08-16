@@ -269,7 +269,7 @@ namespace HomeBanking.Controllers
                 };
                 _accountRepository.Save(newAccount);
 
-                currentNewClient = _clientRepository.FindByEmail(clientRegistrationDTO.Email); //al vicio
+                //currentNewClient = _clientRepository.FindByEmail(clientRegistrationDTO.Email); //al vicio
                 return Created("", currentNewClient);
             }
             catch (Exception ex) 
@@ -292,7 +292,7 @@ namespace HomeBanking.Controllers
         }
         private bool HasSpecialChars(string yourString)
         {
-            return yourString.Any(ch => !char.IsLetterOrDigit(ch));
+            return yourString.Any(ch => !char.IsLetter(ch) && !char.IsWhiteSpace(ch));
         }
 
     }

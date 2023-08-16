@@ -15,7 +15,7 @@ namespace HomeBanking.Controllers
     {
         private IAccountRepository _accountRepository;
         private IClientRepository _clientRepository;
-        public AccountsController(IAccountRepository accountRepository, IClientRepository clientRepository) //Constructor
+        public AccountsController(IAccountRepository accountRepository, IClientRepository clientRepository)
         {
             _accountRepository = accountRepository;
             _clientRepository = clientRepository;
@@ -24,6 +24,10 @@ namespace HomeBanking.Controllers
         [HttpGet("accounts")]
         public IActionResult Get()
         {
+            /*
+             Obtiene el todas las cuentas junto con el conjunto de transacciones de cada una de ellas.
+             */
+
             try
             {
                 var accounts = _accountRepository.GetAllAccounts();
@@ -62,6 +66,9 @@ namespace HomeBanking.Controllers
         [HttpGet("accounts/{id}")]
         public IActionResult Get(long id)
         {
+            /*
+             Obtiene una cuenta en particular por su Id. Trae junto a la cuenta sus transcciones
+             */
             try
             {
                 var account = _accountRepository.FindById(id);
@@ -98,6 +105,9 @@ namespace HomeBanking.Controllers
         [HttpPost("clients/current/accounts")]
         public IActionResult PostAccountToCurrent()
         {
+            /*
+             Crea una cuenta nueva y se la asigna al cliente con sesión actual.
+             */
             try 
             {
                 string email = User.FindFirst("Client") != null ? User.FindFirst("Client").Value : string.Empty;
@@ -118,7 +128,7 @@ namespace HomeBanking.Controllers
                 }
 
                 //Validar que no esté asignado ese nro de cuenta.
-                //Corregir. Hacer lo del nro en el constructor.
+                //Corregir. Hacer lo del nro en el constructor como en Cards o generar una clase en Helpers para evitar repetir código.
                 Random random = new Random();
                 string randomAccountNumber = $"VIN-{random.Next(100000, 100000).ToString()}";
 
@@ -142,6 +152,9 @@ namespace HomeBanking.Controllers
         [HttpGet("clients/current/accounts")]
         public IActionResult GetCurrentAccounts() 
         {
+            /*
+             Obtiene las cuentas del cliente con sesión actual. Subconjunto del resultado de GetAll()
+             */
             try
             {
                 string email = User.FindFirst("Client") != null ? User.FindFirst("Client").Value : string.Empty;
